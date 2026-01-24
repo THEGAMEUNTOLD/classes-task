@@ -6,7 +6,7 @@ import HomeContent from './HomeContent';
 
 const HomePage = () => {
   return (
-    <div className="">
+    <div className="h-screen w-full">
       <Homepposter />
       <HomeContent />
     </div>

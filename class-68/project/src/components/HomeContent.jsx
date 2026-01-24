@@ -9,12 +9,7 @@ const HomeContent = () => {
 
             <TextContent />
 
-            <Buttonpage
-                className="mt-45 px-5 py-1 text-2xl text-white bg-black/80 backdrop-blur-md border border-white/30 rounded-2xl hover:bg-black/40 transition-colors duration-300"
-                style={{ fontFamily: '"Dancing Script", cursive' }}
-                text="Give a chance to You're in a child"
-            />
-
+           
             <Homebottom />
         </div>
     )
