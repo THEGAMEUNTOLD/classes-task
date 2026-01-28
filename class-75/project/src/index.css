@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@layer components {
+  .nav-link {
+    @apply relative text-white font-medium transition-colors duration-300;
+  }
+
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background-color: rgb(34 211 238); /* cyan-400 */
+    transition: width 0.3s ease;
+  }
+
+  .nav-link:hover {
+    color: rgb(34 211 238);
+  }
+
+  .nav-link:hover::after {
+    width: 100%;
+  }
+}
